@@ -110,9 +110,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <footer className="bg-card border-t border-border py-12 mt-auto">
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-8">
           <div className="col-span-1 md:col-span-2">
-            <h3 className="text-2xl font-heading font-bold uppercase mb-4">
-              ANCHR<span className="text-primary">.</span>GEAR
-            </h3>
+            <img 
+              src="/images/anchr_gear_logo_branded.png" 
+              alt="ANCHR GEAR" 
+              className="h-16 w-auto mb-4"
+            />
             <p className="text-muted-foreground max-w-md mb-6">
               Portable fitness equipment for real life. 
               No anchor. No limits. Just sweat.
