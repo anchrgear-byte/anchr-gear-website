@@ -64,6 +64,21 @@ export default function Shop() {
   // State to track selected size for gloves
   const [sizeSelections, setSizeSelections] = useState<Record<string, string>>({});
 
+  // State to track bundle selections
+  const [selectedVariants, setSelectedVariants] = useState<Record<string, ProductVariant>>({});
+  const [selectedSizes, setSelectedSizes] = useState<Record<string, string>>({});
+
+  // Initialize bundle selections when products load
+  useEffect(() => {
+    if (products.length > 0) {
+      const initialVariants: Record<string, ProductVariant> = {};
+      products.forEach(p => {
+        initialVariants[p.id] = p.variants[0];
+      });
+      setSelectedVariants(initialVariants);
+    }
+  }, [products]);
+
   const filteredProducts = filter === "all" 
     ? products 
     : products.filter(p => p.type === filter);
@@ -91,7 +106,33 @@ export default function Shop() {
       return;
     }
 
-    addItem(product, variant, size);
+    // For bundles, extract selections from state
+    const bundle = isBundle(product);
+    if (bundle) {
+      const selectedVariant = selectedVariants[product.id] || product.variants[0];
+      const selectedSize = selectedSizes[product.id];
+      
+      // For Complete Body Transformation Bundle, require all selections
+      if (product.name.toLowerCase().includes('complete body transformation')) {
+        if (!selectedSize) {
+          toast.error("Please select a glove size");
+          return;
+        }
+      }
+      
+      // For Full Body Home Gym Bundle, require size
+      if (product.name.toLowerCase().includes('full body home gym')) {
+        if (!selectedSize) {
+          toast.error("Please select a glove size");
+          return;
+        }
+      }
+      
+      // Pass bundle selections as cart properties
+      addItem(product, selectedVariant, selectedSize);
+    } else {
+      addItem(product, variant, size);
+    }
   };
 
   // Helper function to check if product is a bundle
@@ -456,19 +497,18 @@ export default function Shop() {
                         <div className="mb-6">
                           <div className="flex items-center justify-between mb-2">
                             <span className="text-sm font-medium">
-                              Glove Size: {selectedVariant.size || 'SELECT SIZE'}
+                              Glove Size: {selectedSizes[product.id] || 'SELECT SIZE'}
                             </span>
                             <SizeGuide />
                           </div>
                           <div className="flex gap-2">
                             {['S', 'M', 'L', 'XL'].map((size) => {
-                              const isSelected = selectedVariant.size === size;
+                              const isSelected = selectedSizes[product.id] === size;
                               return (
                                 <button
                                   key={size}
                                   onClick={() => {
-                                    const newVariant = product.variants.find(v => v.size === size) || product.variants[0];
-                                    setSelectedVariants(prev => ({ ...prev, [product.id]: newVariant }));
+                                    setSelectedSizes(prev => ({ ...prev, [product.id]: size }));
                                   }}
                                   className={cn(
                                     "px-4 py-2 border-2 rounded-sm transition-all font-medium",
