@@ -631,42 +631,116 @@ const BLOG_POSTS = {
     image: "/images/qxiHDvLvXZFT.png",
     content: `
 
-<h2>No Gym, No Problem: The Ultimate At-Home Bodyweight Workout</h2>
+<h2>No Gym, No Problem: The REAL Ultimate At-Home Bodyweight Workout (Beginner Edition)</h2>
 
-<p>I get it. You're busy. You're broke. You don't have time to go to the gym. You don't have money for a fancy personal trainer. You don't have space for a home gym. I've been there. I am there.</p>
+<p>So you wanna get fit, but the gym sounds like a nightmare. I get it. Loud music, grunting dudes, and a million machines you don't know how to use. No thanks.</p>
 
-<p>But here's the thing: you don't need any of that to get in the best shape of your life. All you need is your own body and the will to work.</p>
+<p>But what if I told you that you can get a killer workout at home with ZERO equipment? And I'm not talking about those insane workouts you see on Instagram where people are doing one-armed handstand push-ups. I'm talking about a realistic workout for real people who are just starting out.</p>
 
-<p>I'm going to give you a no-excuses, no-equipment, do-anywhere workout that will torch calories, build strength, and get you on the path to a new you. This is the kind of workout that I do when I'm on the road, when I'm short on time, or when I just don't feel like dealing with the gym.</p>
+<p>Forget the excuses. All you need is your own body and the will to work. Let's get it.</p>
 
-<p>This is a circuit workout, which means you're going to do each exercise back-to-back with minimal rest. This keeps your heart rate up and maximizes your calorie burn. Do the full circuit 3-5 times, depending on your fitness level. Rest for 60-90 seconds between each circuit.</p>
+<h3>The Beginner Bodyweight Circuit</h3>
 
-<strong>The Circuit</strong>
+<p>This is a circuit workout. That means you're going to do each exercise back-to-back with minimal rest. Once you finish all the exercises, you'll rest for 1-2 minutes, and then repeat the whole circuit. Aim for 3-4 rounds.</p>
+
+<table>
+<thead>
+<tr>
+<th align="left">Exercise</th>
+<th align="left">Duration/Reps</th>
+<th align="left">Rest</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td align="left"><strong>1. Wall Push-Ups</strong></td>
+<td align="left">10-15 reps</td>
+<td align="left">15s</td>
+</tr>
+<tr>
+<td align="left"><strong>2. Bodyweight Squats</strong></td>
+<td align="left">15-20 reps</td>
+<td align="left">15s</td>
+</tr>
+<tr>
+<td align="left"><strong>3. Glute Bridges</strong></td>
+<td align="left">15-20 reps</td>
+<td align="left">15s</td>
+</tr>
+<tr>
+<td align="left"><strong>4. Plank</strong></td>
+<td align="left">30-60 seconds</td>
+<td align="left">15s</td>
+</tr>
+<tr>
+<td align="left"><strong>5. Jumping Jacks</strong></td>
+<td align="left">30-60 seconds</td>
+<td align="left">1-2 min</td>
+</tr>
+</tbody>
+</table>
+
+<h4>1. Wall Push-Ups</h4>
+
+<p>Forget trying to do push-ups on the floor. That's a recipe for a face-plant. Start with wall push-ups to build your strength.</p>
 
 <ul>
-<li><strong>Bodyweight Squats (20 reps):</strong> This is the king of all exercises. It works your entire lower body and your core. Stand with your feet shoulder-width apart, chest up, and back straight. Lower your hips as if you're sitting in a chair, keeping your weight in your heels. Go as low as you can, then drive back up to the starting position.</li>
+<li>Stand facing a wall, about arm's length away.</li>
+<li>Place your hands on the wall, slightly wider than your shoulders.</li>
+<li>Lean forward until your chest almost touches the wall.</li>
+<li>Push back to the starting position.</li>
 </ul>
+
+<p>That's one rep. Too easy? Move your feet further back from the wall to make it harder.</p>
+
+<h4>2. Bodyweight Squats</h4>
+
+<p>Squats are the king of leg exercises. They work your glutes, quads, and hamstrings. But form is everything.</p>
 
 <ul>
-<li><strong>Push-Ups (as many reps as possible):</strong> This is the ultimate upper-body exercise. It works your chest, shoulders, and triceps. If you can't do a full push-up, don't worry. You can modify it by doing them on your knees or against a wall. The important thing is to keep your body in a straight line from your head to your heels (or knees).</li>
+<li>Stand with your feet shoulder-width apart, toes pointing slightly out.</li>
+<li>Keep your chest up and your back straight.</li>
+<li>Lower your hips as if you're sitting in a chair.</li>
+<li>Go as low as you can without your heels lifting off the floor.</li>
+<li>Push back up to the starting position.</li>
 </ul>
+
+<h4>3. Glute Bridges</h4>
+
+<p>This one is for your booty. It's a simple move, but it's incredibly effective for building your glutes.</p>
 
 <ul>
-<li><strong>Plank (hold for 30-60 seconds):</strong> This is a core-shredding exercise that will also work your shoulders and back. Get into a push-up position, but with your forearms on the ground instead of your hands. Keep your body in a straight line, and don't let your hips sag.</li>
+<li>Lie on your back with your knees bent and your feet flat on the floor.</li>
+<li>Place your arms by your sides with your palms down.</li>
+<li>Squeeze your glutes and lift your hips off the floor until your body forms a straight line from your shoulders to your knees.</li>
+<li>Hold for a second, then lower your hips back down.</li>
 </ul>
+
+<h4>4. Plank</h4>
+
+<p>The plank is a core-shredding exercise. It works your abs, obliques, and lower back.</p>
 
 <ul>
-<li><strong>Lunges (15 reps per leg):</strong> This is another great lower-body exercise that will also challenge your balance and stability. Step forward with one leg and lower your hips until both knees are bent at a 90-degree angle. Make sure your front knee is directly above your ankle, and don't let your back knee touch the ground. Push off your front foot to return to the starting position, then repeat with the other leg.</li>
+<li>Get into a push-up position, but with your forearms on the floor instead of your hands.</li>
+<li>Keep your body in a straight line from your head to your heels.</li>
+<li>Don't let your hips sag or your butt stick up in the air.</li>
+<li>Hold for as long as you can.</li>
 </ul>
+
+<h4>5. Jumping Jacks</h4>
+
+<p>Time to get your heart rate up. Jumping jacks are a classic cardio move for a reason.</p>
 
 <ul>
-<li><strong>Burpees (10 reps):</strong> Everyone's favorite exercise to hate. But there's a reason for that: they work. Burpees are a full-body exercise that will get your heart rate soaring. From a standing position, drop into a squat, kick your feet back into a push-up position, do a push-up, then jump your feet back to your hands and jump up into the air.</li>
+<li>Stand with your feet together and your arms at your sides.</li>
+<li>Jump your feet out to the sides while raising your arms overhead.</li>
+<li>Jump back to the starting position.</li>
 </ul>
 
-<p>That's it. That's the workout. It's simple, but it's not easy. It will challenge you, it will push you, and it will change you.</p>
+<h3>The Bottom Line</h3>
 
-<p>So no more excuses. No more "I can't." You can. You will. Now go do it.</p>
-<p>'''))িনারá</p>
+<p>You don't need a gym to get in shape. You just need to be consistent. Do this workout 3-4 times a week, and you'll start to see results. No excuses. Just work.</p>
+    `
     `
   },
   "resistance-band-workout": {
