@@ -9,6 +9,51 @@ import { Link, useSearch } from "wouter";
 import { SizeGuide } from "@/components/SizeGuide";
 import { toast } from "sonner";
 
+// Map Shopify CDN images to local dark-gray versions
+const getLocalImage = (shopifyUrl: string, productName: string, variantName: string) => {
+  // For bundles, use existing logic
+  if (productName.toLowerCase().includes('complete body transformation')) {
+    return null; // Will use custom bundle image
+  }
+  
+  // Map color variants to local images
+  const colorMap: Record<string, string> = {
+    'electric pink': '/images/pink-ropes.jpeg',
+    'pink': '/images/pink-ropes.jpeg',
+    'concrete grey': '/images/grey-ropes.jpeg',
+    'grey': '/images/grey-ropes.jpeg',
+    'gray': '/images/grey-ropes.jpeg',
+    'stealth black': '/images/black-ropes.jpeg',
+    'black': '/images/black-ropes.jpeg',
+  };
+  
+  // Check if it's a rope product
+  if (productName.toLowerCase().includes('rope')) {
+    const colorKey = variantName.toLowerCase();
+    return colorMap[colorKey] || shopifyUrl;
+  }
+  
+  // Check if it's gloves
+  if (productName.toLowerCase().includes('glove')) {
+    const gloveMap: Record<string, string> = {
+      'electric pink': '/images/pink-gloves-new.jpg',
+      'pink': '/images/pink-gloves-new.jpg',
+      'cyan blue': '/images/blue-gloves-new.jpg',
+      'blue': '/images/blue-gloves-new.jpg',
+      'concrete grey': '/images/grey-gloves-new.jpg',
+      'grey': '/images/grey-gloves-new.jpg',
+      'gray': '/images/grey-gloves-new.jpg',
+      'stealth black': '/images/black-gloves-new.jpg',
+      'black': '/images/black-gloves-new.jpg',
+    };
+    const colorKey = variantName.toLowerCase();
+    return gloveMap[colorKey] || shopifyUrl;
+  }
+  
+  // For other products, use Shopify image
+  return shopifyUrl;
+};
+
 export default function Shop() {
   const search = useSearch();
   const queryParams = new URLSearchParams(search);
@@ -220,9 +265,9 @@ export default function Shop() {
                           </div>
                         </div>
                       ) : (
-                        // Regular product: single image
+                        // Regular product: single image (use local dark-gray version if available)
                         <img 
-                          src={selectedVariant.image} 
+                          src={getLocalImage(selectedVariant.image, product.name, selectedVariant.name) || selectedVariant.image} 
                           alt={`${product.name}`}
                           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                         />
