@@ -67,6 +67,8 @@ export default function Shop() {
   // State to track bundle selections
   const [selectedVariants, setSelectedVariants] = useState<Record<string, ProductVariant>>({});
   const [selectedSizes, setSelectedSizes] = useState<Record<string, string>>({});
+  const [selectedRopeColors, setSelectedRopeColors] = useState<Record<string, string>>({});
+  const [selectedGloveColors, setSelectedGloveColors] = useState<Record<string, string>>({});
 
   // Initialize bundle selections when products load
   useEffect(() => {
@@ -327,14 +329,12 @@ export default function Shop() {
                                 'Concrete Grey': 'rgb(107, 114, 128)',
                                 'Stealth Black': '#000000'
                               };
-                              const isSelected = selectedVariant.name.includes(color);
+                              const isSelected = selectedRopeColors[product.id] === color;
                               return (
                                 <button
                                   key={color}
                                   onClick={() => {
-                                    // Find variant matching this rope color
-                                    const newVariant = product.variants.find(v => v.name.includes(color)) || selectedVariant;
-                                    handleVariantChange(product.id, newVariant);
+                                    setSelectedRopeColors(prev => ({ ...prev, [product.id]: color }));
                                   }}
                                   className={cn(
                                     "w-8 h-8 rounded-full border-2 transition-all relative",
@@ -366,14 +366,12 @@ export default function Shop() {
                                 'Stealth Black': '#000000',
                                 'Cyan Blue': 'rgb(6, 182, 212)'
                               };
-                              const isSelected = selectedVariant.name.includes(color);
+                              const isSelected = selectedGloveColors[product.id] === color;
                               return (
                                 <button
                                   key={color}
                                   onClick={() => {
-                                    // Find variant matching this glove color
-                                    const newVariant = product.variants.find(v => v.name.includes(color)) || selectedVariant;
-                                    handleVariantChange(product.id, newVariant);
+                                    setSelectedGloveColors(prev => ({ ...prev, [product.id]: color }));
                                   }}
                                   className={cn(
                                     "w-8 h-8 rounded-full border-2 transition-all relative",
@@ -440,13 +438,12 @@ export default function Shop() {
                                 'Concrete Grey': 'rgb(107, 114, 128)',
                                 'Stealth Black': '#000000'
                               };
-                              const isSelected = selectedVariant.name.includes(color);
+                              const isSelected = selectedRopeColors[product.id] === color;
                               return (
                                 <button
                                   key={color}
                                   onClick={() => {
-                                    const newVariant = product.variants.find(v => v.name.includes(color)) || product.variants[0];
-                                    setSelectedVariants(prev => ({ ...prev, [product.id]: newVariant }));
+                                    setSelectedRopeColors(prev => ({ ...prev, [product.id]: color }));
                                   }}
                                   className={cn(
                                     "w-8 h-8 rounded-full border-2 transition-all",
@@ -473,13 +470,12 @@ export default function Shop() {
                                 'Stealth Black': '#000000',
                                 'Cyan Blue': 'rgb(6, 182, 212)'
                               };
-                              const isSelected = selectedVariant.name.includes(color);
+                              const isSelected = selectedGloveColors[product.id] === color;
                               return (
                                 <button
                                   key={color}
                                   onClick={() => {
-                                    const newVariant = product.variants.find(v => v.name.includes(color)) || product.variants[0];
-                                    setSelectedVariants(prev => ({ ...prev, [product.id]: newVariant }));
+                                    setSelectedGloveColors(prev => ({ ...prev, [product.id]: color }));
                                   }}
                                   className={cn(
                                     "w-8 h-8 rounded-full border-2 transition-all",
