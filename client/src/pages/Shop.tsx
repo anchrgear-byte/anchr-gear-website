@@ -4,7 +4,7 @@ import { Product, ProductVariant, PRODUCTS as MOCK_PRODUCTS } from "@/lib/produc
 import { getProducts } from "@/lib/shopify";
 import { useCart } from "@/contexts/CartContext";
 import { cn } from "@/lib/utils";
-import { ShoppingCart, Filter, Check } from "lucide-react";
+import { ShoppingCart, Filter, Check, Package, Plus } from "lucide-react";
 import { Link, useSearch } from "wouter";
 import { SizeGuide } from "@/components/SizeGuide";
 import { toast } from "sonner";
@@ -94,6 +94,23 @@ export default function Shop() {
     addItem(product, variant, size);
   };
 
+  // Helper function to check if product is a bundle
+  const isBundle = (product: Product) => {
+    return product.name.toLowerCase().includes('bundle');
+  };
+
+  // Helper function to get bundle component images
+  const getBundleImages = (productName: string) => {
+    const name = productName.toLowerCase();
+    if (name.includes('full body home gym')) {
+      return ['/images/black-ropes.jpeg', '/images/black-gloves-new.jpg'];
+    }
+    if (name.includes('complete body transformation')) {
+      return ['/images/pink-ropes.jpeg', '/images/pink-gloves-new.jpg'];
+    }
+    return [];
+  };
+
   return (
     <div className="min-h-screen bg-background flex flex-col">
       {/* Header */}
@@ -157,6 +174,8 @@ export default function Shop() {
             {filteredProducts.map((product) => {
               const selectedVariant = selections[product.id];
               const selectedSize = sizeSelections[product.id];
+              const bundle = isBundle(product);
+              const bundleImages = bundle ? getBundleImages(product.name) : [];
 
               if (!selectedVariant) return null; // Skip if variant not yet initialized
 
@@ -165,14 +184,52 @@ export default function Shop() {
                   {/* Image Area */}
                   <Link href={`/shop/${product.id}`}>
                     <a className="block relative aspect-square bg-white overflow-hidden">
-                      <img 
-                        src={selectedVariant.image} 
-                        alt={`${product.name} - ${selectedVariant.name}`}
-                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                      />
+                      {bundle && bundleImages.length > 0 ? (
+                        // Bundle: Overlapping images with + sign
+                        <div className="w-full h-full flex items-center justify-center p-8 bg-gradient-to-br from-gray-50 to-gray-100">
+                          <div className="relative w-full h-full flex items-center justify-center">
+                            {/* First product image - left */}
+                            <div className="absolute left-0 w-[45%] h-[70%] rounded-lg overflow-hidden shadow-2xl transform -rotate-6 transition-transform duration-500 group-hover:scale-105 group-hover:-rotate-12 z-10">
+                              <img 
+                                src={bundleImages[0]} 
+                                alt="Bundle item 1"
+                                className="w-full h-full object-cover"
+                              />
+                            </div>
+                            
+                            {/* Plus sign in middle */}
+                            <div className="absolute z-20 bg-primary text-primary-foreground rounded-full w-16 h-16 flex items-center justify-center shadow-xl">
+                              <Plus className="w-8 h-8 font-bold" strokeWidth={3} />
+                            </div>
+                            
+                            {/* Second product image - right */}
+                            <div className="absolute right-0 w-[45%] h-[70%] rounded-lg overflow-hidden shadow-2xl transform rotate-6 transition-transform duration-500 group-hover:scale-105 group-hover:rotate-12 z-10">
+                              <img 
+                                src={bundleImages[1]} 
+                                alt="Bundle item 2"
+                                className="w-full h-full object-cover"
+                              />
+                            </div>
+                          </div>
+                        </div>
+                      ) : (
+                        // Regular product: single image
+                        <img 
+                          src={selectedVariant.image} 
+                          alt={`${product.name}`}
+                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                      )}
+                      
                       {selectedVariant.originalPrice && (
                         <div className="absolute top-4 left-4 bg-destructive text-destructive-foreground px-3 py-1 text-xs font-bold uppercase tracking-widest">
                           Sale
+                        </div>
+                      )}
+                      {bundle && (
+                        <div className="absolute top-4 right-4 bg-primary text-primary-foreground px-3 py-1 text-xs font-bold uppercase tracking-widest flex items-center gap-1">
+                          <Package className="w-3 h-3" />
+                          Bundle
                         </div>
                       )}
                     </a>
@@ -207,8 +264,8 @@ export default function Shop() {
                       </div>
                     )}
 
-                    {/* Color Selection (Skip for Digital) */}
-                    {product.type !== 'digital' && (
+                    {/* Color Selection - HIDE for bundles and digital products */}
+                    {!bundle && product.type !== 'digital' && (
                       <div className="mb-4">
                         <span className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-3 block">
                           Color: <span className="text-foreground">{selectedVariant.name.split('/')[0].trim()}</span>
@@ -252,8 +309,8 @@ export default function Shop() {
                       </div>
                     )}
 
-                    {/* Size Selection (Gloves Only) */}
-                    {product.type === 'glove' && (
+                    {/* Size Selection (Gloves Only) - HIDE for bundles */}
+                    {!bundle && product.type === 'glove' && (
                       <div className="mb-6">
                         <div className="flex justify-between items-center mb-3">
                           <span className="text-xs font-bold uppercase tracking-widest text-muted-foreground block">
