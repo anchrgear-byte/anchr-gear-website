@@ -93,7 +93,7 @@ const BLOG_POSTS = [
     date: "Jan 10, 2026",
     author: "Regina",
     category: "Transformation",
-    image: "/images/j0eTaRGE3l9o.png"
+    image: "/images/regina_fashion_transformation.jpg"
   },
   {
     id: "no-equipment-workout",
