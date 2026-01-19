@@ -446,12 +446,18 @@ export default function Shop() {
                                     setSelectedRopeColors(prev => ({ ...prev, [product.id]: color }));
                                   }}
                                   className={cn(
-                                    "w-8 h-8 rounded-full border-2 transition-all",
+                                    "w-8 h-8 rounded-full border-2 transition-all relative",
                                     isSelected ? "border-primary scale-110" : "border-transparent hover:scale-105"
                                   )}
                                   style={{ backgroundColor: colorMap[color] }}
                                   title={color}
-                                />
+                                >
+                                  {isSelected && (
+                                    <span className="absolute inset-0 flex items-center justify-center">
+                                      <Check className={cn("w-4 h-4", color === 'Electric Pink' ? "text-black" : "text-white")} />
+                                    </span>
+                                  )}
+                                </button>
                               );
                             })}
                           </div>
@@ -478,12 +484,18 @@ export default function Shop() {
                                     setSelectedGloveColors(prev => ({ ...prev, [product.id]: color }));
                                   }}
                                   className={cn(
-                                    "w-8 h-8 rounded-full border-2 transition-all",
+                                    "w-8 h-8 rounded-full border-2 transition-all relative",
                                     isSelected ? "border-primary scale-110" : "border-transparent hover:scale-105"
                                   )}
                                   style={{ backgroundColor: colorMap[color] }}
                                   title={color}
-                                />
+                                >
+                                  {isSelected && (
+                                    <span className="absolute inset-0 flex items-center justify-center">
+                                      <Check className={cn("w-4 h-4", color === 'Electric Pink' ? "text-black" : "text-white")} />
+                                    </span>
+                                  )}
+                                </button>
                               );
                             })}
                           </div>
