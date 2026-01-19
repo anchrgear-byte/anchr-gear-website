@@ -84,7 +84,7 @@ const BLOG_POSTS = [
     date: "Jan 11, 2026",
     author: "Regina",
     category: "Transformation",
-    image: "/images/complete-transformation-bundle.png"
+    image: "/images/rock_bottom_blueprint.jpg"
   },
   {
     id: "fashion-after-weight-loss",
