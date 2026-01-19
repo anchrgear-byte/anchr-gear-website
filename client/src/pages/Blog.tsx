@@ -39,7 +39,7 @@ const BLOG_POSTS = [
     date: "Jan 16, 2026",
     author: "Regina",
     category: "Training Tips",
-    image: "/images/TiZNVjdIakX6.jpg"
+    image: "/images/fitness_mistakes_5.jpg"
   },
   {
     id: "hidden-sugars",
@@ -57,7 +57,7 @@ const BLOG_POSTS = [
     date: "Jan 14, 2026",
     author: "Regina",
     category: "Transformation",
-    image: "/images/fitness_mistakes_5.jpg"
+    image: "/images/TiZNVjdIakX6.jpg"
   },
   {
     id: "911-dispatcher-burnout",

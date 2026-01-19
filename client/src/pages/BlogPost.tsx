@@ -325,7 +325,7 @@ const BLOG_POSTS = {
     date: "Jan 16, 2026",
     author: "Regina",
     category: "Training Tips",
-    image: "/images/TiZNVjdIakX6.jpg",
+    image: "/images/fitness_mistakes_5.jpg",
     content: `
       <p>Working out in your 40s and beyond is different. Your body doesn't recover as quickly. Your metabolism is slower. The things that worked for you in your 20s might actually be doing more harm than good now.</p>
 
@@ -486,7 +486,7 @@ const BLOG_POSTS = {
     date: "Jan 14, 2026",
     author: "Regina",
     category: "Transformation",
-    image: "/images/fitness_mistakes_5.jpg",
+    image: "/images/TiZNVjdIakX6.jpg",
     content: `
 <h2>The Dirty Secret Nobody Tells You About Losing 160 Pounds</h2>
 
