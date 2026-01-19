@@ -104,4 +104,3 @@ temp/
 *.db
 *.sqlite
 *.sqlite3
-deployment.tar.gz

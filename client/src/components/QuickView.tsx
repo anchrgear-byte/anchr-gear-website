@@ -9,10 +9,10 @@ import {
 import { Button } from "@/components/ui/button";
 import { Product, ProductVariant } from "@/lib/products";
 import { cn } from "@/lib/utils";
-import { ShoppingCart, Check, Eye } from "lucide-react";
+import { ShoppingCart, Check, Eye, ArrowRight } from "lucide-react";
 import { SizeGuide } from "@/components/SizeGuide";
 import { toast } from "sonner";
-
+import { Link } from "wouter";
 import { useCart } from "@/contexts/CartContext";
 
 interface QuickViewProps {
@@ -140,7 +140,7 @@ export function QuickView({ product, trigger }: QuickViewProps) {
             </div>
           )}
 
-          <div className="mt-auto">
+          <div className="mt-auto space-y-3">
             <Button 
               size="lg" 
               className="w-full rounded-none uppercase font-heading tracking-widest text-lg h-14"
@@ -148,6 +148,15 @@ export function QuickView({ product, trigger }: QuickViewProps) {
             >
               Add to Cart <ShoppingCart className="ml-2 w-5 h-5" />
             </Button>
+            
+            <Link href={`/shop/${product.id}`}>
+              <Button 
+                variant="link" 
+                className="w-full text-muted-foreground hover:text-primary uppercase tracking-widest text-xs font-bold"
+              >
+                View Full Details <ArrowRight className="ml-1 w-3 h-3" />
+              </Button>
+            </Link>
           </div>
         </div>
       </DialogContent>

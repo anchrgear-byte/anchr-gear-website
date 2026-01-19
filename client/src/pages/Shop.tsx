@@ -4,8 +4,7 @@ import { Product, ProductVariant, PRODUCTS as MOCK_PRODUCTS } from "@/lib/produc
 import { getProducts } from "@/lib/shopify";
 import { useCart } from "@/contexts/CartContext";
 import { cn } from "@/lib/utils";
-import { ShoppingCart, Filter, Check, Eye } from "lucide-react";
-import { QuickView } from "@/components/QuickView";
+import { ShoppingCart, Filter, Check } from "lucide-react";
 import { Link, useSearch } from "wouter";
 import { SizeGuide } from "@/components/SizeGuide";
 import { toast } from "sonner";
@@ -154,7 +153,7 @@ export default function Shop() {
             <p className="text-muted-foreground">Loading gear...</p>
           </div>
         ) : (
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {filteredProducts.map((product) => {
               const selectedVariant = selections[product.id];
               const selectedSize = sizeSelections[product.id];
@@ -162,32 +161,39 @@ export default function Shop() {
               if (!selectedVariant) return null; // Skip if variant not yet initialized
 
               return (
-                <div key={product.id} className="group flex flex-col md:flex-row gap-8 bg-card border border-border p-6 hover:border-primary/50 transition-colors">
-                {/* Image Area */}
-                <div className="w-full md:w-1/2 aspect-square bg-white relative overflow-hidden">
-                  <img 
-                    src={selectedVariant.image} 
-                    alt={`${product.name} - ${selectedVariant.name}`}
-                    className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
-                  />
-                  {product.originalPrice && (
-                    <div className="absolute top-4 left-4 bg-destructive text-destructive-foreground px-3 py-1 text-xs font-bold uppercase tracking-widest">
-                      Sale
-                    </div>
-                  )}
-                </div>
+                <div key={product.id} className="group flex flex-col bg-card border border-border hover:border-primary/50 transition-colors overflow-hidden">
+                  {/* Image Area */}
+                  <Link href={`/shop/${product.id}`}>
+                    <a className="block relative aspect-square bg-white overflow-hidden">
+                      <img 
+                        src={selectedVariant.image} 
+                        alt={`${product.name} - ${selectedVariant.name}`}
+                        className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                      />
+                      {selectedVariant.originalPrice && (
+                        <div className="absolute top-4 left-4 bg-destructive text-destructive-foreground px-3 py-1 text-xs font-bold uppercase tracking-widest">
+                          Sale
+                        </div>
+                      )}
+                    </a>
+                  </Link>
 
-                {/* Details Area */}
-                <div className="w-full md:w-1/2 flex flex-col">
-                  <div className="mb-auto">
-                    <h3 className="text-3xl font-heading font-bold uppercase mb-2">{product.name}</h3>
+                  {/* Details Area */}
+                  <div className="p-6 flex flex-col flex-grow">
+                    <Link href={`/shop/${product.id}`}>
+                      <a>
+                        <h3 className="text-2xl font-heading font-bold uppercase mb-2 hover:text-primary transition-colors">{product.name}</h3>
+                      </a>
+                    </Link>
+                    
                     <div className="flex items-baseline gap-3 mb-4">
                       <span className="text-2xl font-bold text-primary">${selectedVariant.price.toFixed(2)}</span>
                       {selectedVariant.originalPrice && (
                         <span className="text-lg text-muted-foreground line-through">${selectedVariant.originalPrice.toFixed(2)}</span>
                       )}
                     </div>
-                    <p className="text-muted-foreground text-sm mb-6 leading-relaxed">
+
+                    <p className="text-muted-foreground text-sm mb-6 leading-relaxed line-clamp-3">
                       {product.description}
                     </p>
 
@@ -196,18 +202,18 @@ export default function Shop() {
                       <div className="mb-6 p-3 bg-primary/10 border border-primary/20 rounded-sm">
                         <p className="text-xs text-primary font-bold uppercase tracking-widest flex items-center gap-2">
                           <Check className="w-3 h-3" />
-                          Delivered via email immediately
+                          Instant Digital Download
                         </p>
                       </div>
                     )}
 
                     {/* Color Selection (Skip for Digital) */}
                     {product.type !== 'digital' && (
-                      <div className="mb-6">
+                      <div className="mb-4">
                         <span className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-3 block">
                           Color: <span className="text-foreground">{selectedVariant.name.split('/')[0].trim()}</span>
                         </span>
-                        <div className="flex gap-3">
+                        <div className="flex gap-2">
                           {Array.from(new Set(product.variants.map(v => v.name.split('/')[0].trim()))).map((colorName) => {
                             // Find the first variant that matches this color to use for the button
                             const variant = product.variants.find(v => v.name.includes(colorName));
@@ -248,7 +254,7 @@ export default function Shop() {
 
                     {/* Size Selection (Gloves Only) */}
                     {product.type === 'glove' && (
-                      <div className="mb-8">
+                      <div className="mb-6">
                         <div className="flex justify-between items-center mb-3">
                           <span className="text-xs font-bold uppercase tracking-widest text-muted-foreground block">
                             Size: <span className="text-foreground">{selectedSize || "Select Size"}</span>
@@ -283,20 +289,18 @@ export default function Shop() {
                         </div>
                       </div>
                     )}
-                  </div>
 
-                  <div className="flex gap-4">
-                    <Button 
-                      size="lg" 
-                      className="flex-1 rounded-none uppercase font-heading tracking-widest text-lg h-14"
-                      onClick={() => addToCart(product)}
-                    >
-                      Add to Cart <ShoppingCart className="ml-2 w-5 h-5" />
-                    </Button>
-                    <QuickView product={product} />
+                    <div className="mt-auto">
+                      <Button 
+                        size="lg" 
+                        className="w-full rounded-none uppercase font-heading tracking-widest text-base h-14"
+                        onClick={() => addToCart(product)}
+                      >
+                        Add to Cart <ShoppingCart className="ml-2 w-5 h-5" />
+                      </Button>
+                    </div>
                   </div>
                 </div>
-              </div>
               );
             })}
           </div>
