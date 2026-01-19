@@ -219,7 +219,7 @@ const BLOG_POSTS = {
     date: "Jan 17, 2026",
     author: "Reggie",
     category: "Nutrition",
-    image: "/images/bundle-meal-prep.jpg",
+    image: "/images/meal_plan_cover_1.jpg",
     content: `
       <p>Let me guess: you know you *should* meal prep, but you just... don't.</p>
 

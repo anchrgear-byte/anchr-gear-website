@@ -30,7 +30,7 @@ const BLOG_POSTS = [
     date: "Jan 17, 2026",
     author: "Reggie",
     category: "Nutrition",
-    image: "/images/bundle-meal-prep.jpg"
+    image: "/images/meal_plan_cover_1.jpg"
   },
   {
     id: "fitness-mistakes-after-40",
