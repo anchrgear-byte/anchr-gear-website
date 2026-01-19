@@ -8,9 +8,9 @@ const BLOG_POSTS = {
   "how-i-lost-160-pounds": {
     title: "How I Lost 160 Pounds: The Truth About Weight Loss Surgery",
     date: "Jan 19, 2026",
-    author: "Reggie",
+    author: "Regina",
     category: "Transformation",
-    image: "/images/hero-bg-final-user.png",
+    image: "/images/OR1nmesUqL29.jpg",
     content: `
       <p>I'm going to tell you something I've never said publicly before.</p>
 
@@ -74,7 +74,7 @@ const BLOG_POSTS = {
   "battle-rope-workouts": {
     title: "5 At-Home Workouts With Battle Ropes That Actually Work",
     date: "Jan 18, 2026",
-    author: "Reggie",
+    author: "Regina",
     category: "Workouts",
     image: "/images/pink-ropes.jpeg",
     content: `
@@ -217,7 +217,7 @@ const BLOG_POSTS = {
   "meal-prep-guide": {
     title: "The Ultimate Guide to Meal Prepping for Weight Loss",
     date: "Jan 17, 2026",
-    author: "Reggie",
+    author: "Regina",
     category: "Nutrition",
     image: "/images/meal_plan_cover_1.jpg",
     content: `
@@ -323,9 +323,9 @@ const BLOG_POSTS = {
   "fitness-mistakes-after-40": {
     title: "Are You Making These 5 Common Fitness Mistakes After 40?",
     date: "Jan 16, 2026",
-    author: "Reggie",
+    author: "Regina",
     category: "Training Tips",
-    image: "/images/black-gloves-new.jpg",
+    image: "/images/m95tdy0bqUz4.jpg",
     content: `
       <p>Working out in your 40s and beyond is different. Your body doesn't recover as quickly. Your metabolism is slower. The things that worked for you in your 20s might actually be doing more harm than good now.</p>
 
@@ -385,9 +385,9 @@ const BLOG_POSTS = {
   "hidden-sugars": {
     title: "Why Your 'Healthy' Diet Isn't Working: The Truth About Hidden Sugars",
     date: "Jan 15, 2026",
-    author: "Reggie",
+    author: "Regina",
     category: "Nutrition",
-    image: "/images/hero-bg-final-user.png",
+    image: "/images/OR1nmesUqL29.jpg",
     content: `
       <p>You're doing everything right. You're eating salads, you're drinking smoothies, you're choosing the "low-fat" and "all-natural" options at the grocery store.</p>
 
@@ -484,7 +484,7 @@ const BLOG_POSTS = {
   "loose-skin-truth": {
     title: "The Dirty Secret Nobody Tells You About Losing 160 Pounds",
     date: "Jan 14, 2026",
-    author: "Reggie",
+    author: "Regina",
     category: "Transformation",
     image: "/images/hero-bg-1.jpg",
     content: `
@@ -510,9 +510,9 @@ const BLOG_POSTS = {
   "911-dispatcher-burnout": {
     title: "How 20 Years as a 911 Dispatcher Nearly Killed Me",
     date: "Jan 13, 2026",
-    author: "Reggie",
+    author: "Regina",
     category: "Transformation",
-    image: "/images/hero-bg-2.jpg",
+    image: "/images/mNcguTaVaJtA.jpg",
     content: `
 
 <h2>20 Years in the Dark: How the Headset Almost Broke Me</h2>
@@ -540,9 +540,9 @@ const BLOG_POSTS = {
   "mental-weight-loss": {
     title: "The Head Game: Why Losing Weight is More Mental Than Physical",
     date: "Jan 12, 2026",
-    author: "Reggie",
+    author: "Regina",
     category: "Transformation",
-    image: "/images/hero-bg-3.jpg",
+    image: "/images/LmVZYqlbL13k.jpg",
     content: `
 <h2>The Head Game: Why Losing Weight is More Mental Than Physical</h2>
 
@@ -570,7 +570,7 @@ const BLOG_POSTS = {
   "rock-bottom-redemption": {
     title: "From Rock Bottom to Redemption: My Plan to Build a New Life",
     date: "Jan 11, 2026",
-    author: "Reggie",
+    author: "Regina",
     category: "Transformation",
     image: "/images/complete-transformation-bundle.png",
     content: `
@@ -598,9 +598,9 @@ const BLOG_POSTS = {
   "fashion-after-weight-loss": {
     title: "From Hiding to High Fashion: Finding My Style After 160 Pounds",
     date: "Jan 10, 2026",
-    author: "Reggie",
+    author: "Regina",
     category: "Transformation",
-    image: "/images/pink-gloves-new.jpg",
+    image: "/images/j0eTaRGE3l9o.png",
     content: `
 <h2>From Hiding to High Fashion: Finding My Style After 160 Pounds</h2>
 
@@ -626,9 +626,9 @@ const BLOG_POSTS = {
   "no-equipment-workout": {
     title: "No Gym, No Problem: The Ultimate At-Home Bodyweight Workout",
     date: "Jan 9, 2026",
-    author: "Reggie",
+    author: "Regina",
     category: "Workouts",
-    image: "/images/black-ropes.jpeg",
+    image: "/images/qxiHDvLvXZFT.png",
     content: `
 
 <h2>No Gym, No Problem: The Ultimate At-Home Bodyweight Workout</h2>
@@ -672,9 +672,9 @@ const BLOG_POSTS = {
   "resistance-band-workout": {
     title: "The $10 Gym That Fits in Your Pocket: A Full-Body Resistance Band Workout",
     date: "Jan 8, 2026",
-    author: "Reggie",
+    author: "Regina",
     category: "Workouts",
-    image: "/images/grey-ropes.jpeg",
+    image: "/images/te5SztHLdokU.jpg",
     content: `
 
 <h2>The $10 Gym That Fits in Your Pocket: A Full-Body Resistance Band Workout</h2>
@@ -720,7 +720,7 @@ const BLOG_POSTS = {
   "outdoor-workouts": {
     title: "Ditch the Gym, Find Your Playground: The Power of Outdoor Workouts",
     date: "Jan 7, 2026",
-    author: "Reggie",
+    author: "Regina",
     category: "Workouts",
     image: "/images/hero-bg-cordless-final.png",
     content: `
@@ -762,7 +762,7 @@ const BLOG_POSTS = {
   "hiit-workout": {
     title: "20 Minutes to a New You: The Power of HIIT",
     date: "Jan 6, 2026",
-    author: "Reggie",
+    author: "Regina",
     category: "Workouts",
     image: "/images/blue-gloves-new.jpg",
     content: `
@@ -812,7 +812,7 @@ const BLOG_POSTS = {
   "recovery-workout": {
     title: "The Most Important Workout You're Not Doing: The Art of Recovery",
     date: "Jan 5, 2026",
-    author: "Reggie",
+    author: "Regina",
     category: "Workouts",
     image: "/images/grey-gloves-new.jpg",
     content: `
@@ -862,9 +862,9 @@ const BLOG_POSTS = {
   "emotional-eating": {
     title: "Are You Eating Your Feelings? How to Break Up with Emotional Eating",
     date: "Jan 4, 2026",
-    author: "Reggie",
+    author: "Regina",
     category: "Nutrition",
-    image: "/images/meal_plan_cover_2.jpg",
+    image: "/images/5eAlUIZNuAao.jpg",
     content: `
 <h2>Are You Eating Your Feelings? How to Break Up with Emotional Eating</h2>
 
@@ -894,7 +894,7 @@ const BLOG_POSTS = {
   "protein-power": {
     title: "The Unsung Hero of Weight Loss: Why Protein is Your Secret Weapon",
     date: "Jan 3, 2026",
-    author: "Reggie",
+    author: "Regina",
     category: "Nutrition",
     image: "/images/strength_program_cover_1.jpg",
     content: `
@@ -926,7 +926,7 @@ const BLOG_POSTS = {
   "healthy-fats": {
     title: "The Fat Fallacy: Why You Need to Eat Fat to Lose Fat",
     date: "Jan 2, 2026",
-    author: "Reggie",
+    author: "Regina",
     category: "Nutrition",
     image: "/images/strength_program_cover_2.jpg",
     content: `
@@ -960,7 +960,7 @@ const BLOG_POSTS = {
   "hydration-hack": {
     title: "The Easiest Weight Loss Hack You're Not Using",
     date: "Jan 1, 2026",
-    author: "Reggie",
+    author: "Regina",
     category: "Nutrition",
     image: "/images/strength_program_cover_v2_1.jpg",
     content: `
@@ -994,7 +994,7 @@ const BLOG_POSTS = {
   "mind-muscle-connection": {
     title: "Stop Wasting Your Time in the Gym: The Mind-Muscle Connection",
     date: "Dec 31, 2025",
-    author: "Reggie",
+    author: "Regina",
     category: "Training Tips",
     image: "/images/strength_program_cover_v2_2.jpg",
     content: `
@@ -1034,7 +1034,7 @@ const BLOG_POSTS = {
   "progressive-overload": {
     title: "The Secret to Getting Stronger (It's Not What You Think)",
     date: "Dec 30, 2025",
-    author: "Reggie",
+    author: "Regina",
     category: "Training Tips",
     image: "/images/strength_program_cover_v2_3.jpg",
     content: `
@@ -1074,7 +1074,7 @@ const BLOG_POSTS = {
   "consistency-over-intensity": {
     title: "The Unsexy Secret to Jaw-Dropping Results",
     date: "Dec 29, 2025",
-    author: "Reggie",
+    author: "Regina",
     category: "Training Tips",
     image: "/images/Black Gloves.jpg",
     content: `
@@ -1114,7 +1114,7 @@ const BLOG_POSTS = {
   "warmup-cooldown": {
     title: "The Most Neglected Parts of Your Workout (That Are Also the Most Important)",
     date: "Dec 28, 2025",
-    author: "Reggie",
+    author: "Regina",
     category: "Training Tips",
     image: "/images/Blue Gloves.jpg",
     content: `
@@ -1164,7 +1164,7 @@ const BLOG_POSTS = {
   "motivation-myth": {
     title: "Motivation is a Myth: How to Show Up When You Don't Want To",
     date: "Dec 27, 2025",
-    author: "Reggie",
+    author: "Regina",
     category: "Training Tips",
     image: "/images/Grey Gloves.jpg",
     content: `
