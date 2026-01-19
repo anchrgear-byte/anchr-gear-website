@@ -184,8 +184,15 @@ export default function Shop() {
                   {/* Image Area */}
                   <Link href={`/shop/${product.id}`}>
                     <a className="block relative aspect-square bg-white overflow-hidden">
-                      {bundle && bundleImages.length > 0 ? (
-                        // Bundle: Overlapping images with + sign
+                      {bundle && product.name.toLowerCase().includes('complete body transformation') ? (
+                        // Complete Transformation Bundle: Use custom collage image
+                        <img 
+                          src="/images/complete-transformation-bundle.png" 
+                          alt={`${product.name}`}
+                          className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
+                        />
+                      ) : bundle && bundleImages.length > 0 ? (
+                        // Other Bundles: Overlapping images with + sign
                         <div className="w-full h-full flex items-center justify-center p-8 bg-gradient-to-br from-gray-50 to-gray-100">
                           <div className="relative w-full h-full flex items-center justify-center">
                             {/* First product image - left */}
