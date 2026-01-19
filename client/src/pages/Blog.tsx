@@ -57,7 +57,7 @@ const BLOG_POSTS = [
     date: "Jan 14, 2026",
     author: "Regina",
     category: "Transformation",
-    image: "/images/hero-bg-1.jpg"
+    image: "/images/fitness_mistakes_5.jpg"
   },
   {
     id: "911-dispatcher-burnout",
