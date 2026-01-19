@@ -189,3 +189,105 @@ Water is the most anabolic supplement you can take. If you are dehydrated, you a
 ---
 
 **EAT CLEAN. TRAIN HARD. REPEAT.**
+
+
+---
+
+## PART 6: 7-DAY EXAMPLE MEAL PLAN
+
+This is a sample week of eating to show you how to put the principles into practice. Adjust portion sizes based on your own macro goals. This plan is designed for someone targeting ~1800-2200 calories and 150-180g of protein.
+
+| DAY | BREAKFAST | LUNCH | DINNER | SNACKS |
+| :--- | :--- | :--- | :--- | :--- |
+| **MONDAY** | The "Grind" Oatmeal | The "Lazy" Chicken Bowl | Turkey Taco Skillet | Protein Shake, Apple |
+| **TUESDAY** | Greek Yogurt Power Bowl | Leftover Turkey Taco Skillet | Salmon & Asparagus | Handful of Almonds, Beef Jerky |
+| **WEDNESDAY** | Egg White Scramble | The "Lazy" Chicken Bowl | Chicken Pesto Pasta | Cottage Cheese, Banana |
+| **THURSDAY** | The "Grind" Oatmeal | Leftover Chicken Pesto Pasta | Big Mac Salad | Protein Shake, Rice Cakes |
+| **FRIDAY** | Greek Yogurt Power Bowl | The "Lazy" Chicken Bowl | Egg Roll in a Bowl | Tuna Packet, Orange |
+| **SATURDAY** | Protein Pancakes | Loaded Sweet Potato | Shrimp Stir-Fry | Greek Yogurt, Berries |
+| **SUNDAY** | Egg White Scramble | Leftover Shrimp Stir-Fry | Beef & Sweet Potato Hash | Handful of Walnuts, Protein Bar |
+
+**Meal Prep Notes for the Week:**
+-   **Sunday:** Cook your chicken breast, ground turkey, rice, and sweet potatoes. Hard boil eggs.
+-   **Wednesday:** Cook salmon for dinner. Make enough for leftovers if desired.
+-   **Friday:** Use pre-cooked shrimp for a fast dinner.
+
+This structure ensures you are eating a high-protein, nutrient-dense diet consistently, which is the key to seeing real transformation.
+
+
+---
+
+## PART 7: RECIPE MACRO BREAKDOWNS
+
+Below are the estimated nutritional breakdowns for each of the "Cheat Code" recipes. Use these numbers to stay on track with your daily goals. *Note: These are estimates. Actual values may vary based on specific brands and exact portion sizes.*
+
+| Recipe | Calories | Protein (g) | Carbs (g) | Fat (g) |
+| :--- | :--- | :--- | :--- | :--- |
+| Buffalo Chicken Mac & Cheese | 617 | 68 | 64 | 10 |
+| Big Mac Salad | 516 | 46 | 12 | 30 |
+| Spicy Tuna Sushi Bowl | 430 | 40 | 47 | 7 |
+| Egg Roll in a Bowl | 378 | 52 | 12 | 14 |
+| Protein Pancakes | 364 | 38 | 26 | 13 |
+| Chicken Pesto Pasta | 575 | 55 | 53 | 14 |
+| Loaded Sweet Potato | 414 | 39 | 43 | 9 |
+| Shrimp Stir-Fry | 232 | 40 | 19 | 1 |
+| Greek Turkey Burgers | 402 | 54 | 2 | 20 |
+| Chocolate Peanut Butter "Nice" Cream | 358 | 30 | 40 | 11 |
+
+
+---
+
+## PART 8: THE ANCHR GROCERY STORE TOUR
+
+Navigating the grocery store can be a trap. Here’s how to win.
+
+**RULE #1: SHOP THE PERIMETER.** The outer ring of the store is where the real food lives: produce, meat, dairy. The inner aisles are a minefield of processed junk. Stick to the perimeter for 80% of your shopping.
+
+**AISLE-BY-AISLE BATTLE PLAN:**
+
+*   **PRODUCE:**
+    *   **Win:** Load up on leafy greens (spinach, kale), cruciferous veggies (broccoli, cauliflower), and colorful peppers. Grab bananas for smoothies and berries for yogurt.
+    *   **Lose:** Fruit juices (sugar bombs), pre-made fruit salads (often old and overpriced).
+
+*   **MEAT & SEAFOOD:**
+    *   **Win:** Boneless, skinless chicken breast, 93/7 or leaner ground turkey/beef, salmon, and shrimp. Look for sales and buy in bulk to freeze.
+    *   **Lose:** Processed sausages, bacon, and mystery meat from the deli counter.
+
+*   **DAIRY & EGGS:**
+    *   **Win:** Plain non-fat Greek yogurt, cottage cheese, liquid egg whites, and whole eggs. These are protein powerhouses.
+    *   **Lose:** Flavored yogurts (loaded with sugar), sugary coffee creamers, and full-fat cheese (use sparingly).
+
+*   **THE INNER AISLES (DANGER ZONE):**
+    *   **Carbs:** Rolled oats, brown/white rice, quinoa, and sweet potatoes are your allies. Whole wheat or chickpea pasta are also solid choices.
+    *   **Canned Goods:** Canned tuna/salmon in water, black beans, and chickpeas are great to have on hand. Watch the sodium.
+    *   **Fats:** Stick to olive oil, avocado oil, nuts, seeds, and natural peanut/almond butter (the kind you have to stir).
+    *   **Frozen Foods:** Frozen veggies and fruits are just as nutritious as fresh and are often cheaper. Frozen shrimp and chicken breast are also great staples.
+
+**RULE #2: READ THE LABEL.** Don't be fooled by flashy marketing. The only thing that matters is the **Nutrition Facts** panel and the **Ingredients List**. If the ingredient list is a paragraph long and full of words you can't pronounce, put it back.
+
+---
+
+## PART 9: EATING ON THE GO (NO EXCUSES)
+
+Life happens. You can’t always meal prep. Here’s how to stay on track when you’re out.
+
+**THE FAST FOOD SURVIVAL GUIDE:**
+
+*   **Chipotle/Qdoba:** This is your #1 choice. Double protein (chicken or steak), fajita veggies, salsa, and lettuce. Skip the rice, cheese, and sour cream if you're cutting. Guac is a good fat source.
+*   **Wendy's:** Grilled Chicken Sandwich (no mayo) or a Chili. Avoid the fries and Frosty.
+*   **McDonald's:** Grilled chicken is gone, so this is a tough one. Your best bet is a McDouble (ask for no cheese, toss one bun) and a side salad. It's not great, but it's protein.
+*   **Starbucks:** Egg white bites or a protein box. Avoid the Frappuccinos and pastries.
+
+**THE GAS STATION GRAB:**
+
+*   **Best Bets:** Beef jerky, protein bars (look for >15g protein, <10g sugar), nuts, hard-boiled eggs, or a pre-made protein shake (like Muscle Milk or Fairlife).
+*   **Avoid:** Chips, candy, and sugary drinks.
+
+**THE RESTAURANT RULE:**
+
+When you eat at a sit-down restaurant, follow this simple rule: **Double Protein, Double Veggies, Half Carbs.**
+
+*   **Example:** If you order a steak dinner, ask for a double portion of steak, double broccoli, and half the mashed potatoes.
+*   **Pro Tip:** Ask for sauces and dressings on the side so you can control how much you use.
+
+Staying on track is about making the **best available choice**, not the perfect choice. Don't let one unplanned meal derail your entire week.
