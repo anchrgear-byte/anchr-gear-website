@@ -271,6 +271,128 @@ export default function Shop() {
                       </div>
                     )}
 
+                    {/* Bundle Variant Selection */}
+                    {bundle && product.name.toLowerCase().includes('full body home gym') && (
+                      <div className="space-y-4 mb-6">
+                        {/* Rope Color Selection */}
+                        <div>
+                          <span className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-3 block">
+                            Rope Color
+                          </span>
+                          <div className="flex gap-2">
+                            {['Electric Pink', 'Concrete Grey', 'Stealth Black'].map((color) => {
+                              const colorMap: Record<string, string> = {
+                                'Electric Pink': '#FF1493',
+                                'Concrete Grey': '#808080',
+                                'Stealth Black': '#000000'
+                              };
+                              const isSelected = selectedVariant.name.includes(color);
+                              return (
+                                <button
+                                  key={color}
+                                  onClick={() => {
+                                    // Find variant matching this rope color
+                                    const newVariant = product.variants.find(v => v.name.includes(color)) || selectedVariant;
+                                    handleVariantChange(product.id, newVariant);
+                                  }}
+                                  className={cn(
+                                    "w-8 h-8 rounded-full border-2 transition-all relative",
+                                    isSelected ? "border-primary scale-110" : "border-transparent hover:scale-105"
+                                  )}
+                                  style={{ backgroundColor: colorMap[color] }}
+                                  title={color}
+                                >
+                                  {isSelected && (
+                                    <span className="absolute inset-0 flex items-center justify-center">
+                                      <Check className={cn("w-4 h-4", color === 'Electric Pink' ? "text-black" : "text-white")} />
+                                    </span>
+                                  )}
+                                </button>
+                              );
+                            })}
+                          </div>
+                        </div>
+                        {/* Glove Color Selection */}
+                        <div>
+                          <span className="text-xs font-bold uppercase tracking-widest text-muted-foreground mb-3 block">
+                            Glove Color
+                          </span>
+                          <div className="flex gap-2">
+                            {['Electric Pink', 'Concrete Grey', 'Stealth Black', 'Cyan Blue'].map((color) => {
+                              const colorMap: Record<string, string> = {
+                                'Electric Pink': '#FF1493',
+                                'Concrete Grey': '#808080',
+                                'Stealth Black': '#000000',
+                                'Cyan Blue': '#00CED1'
+                              };
+                              const isSelected = selectedVariant.name.includes(color);
+                              return (
+                                <button
+                                  key={color}
+                                  onClick={() => {
+                                    // Find variant matching this glove color
+                                    const newVariant = product.variants.find(v => v.name.includes(color)) || selectedVariant;
+                                    handleVariantChange(product.id, newVariant);
+                                  }}
+                                  className={cn(
+                                    "w-8 h-8 rounded-full border-2 transition-all relative",
+                                    isSelected ? "border-primary scale-110" : "border-transparent hover:scale-105"
+                                  )}
+                                  style={{ backgroundColor: colorMap[color] }}
+                                  title={color}
+                                >
+                                  {isSelected && (
+                                    <span className="absolute inset-0 flex items-center justify-center">
+                                      <Check className={cn("w-4 h-4", color === 'Electric Pink' || color === 'Cyan Blue' ? "text-black" : "text-white")} />
+                                    </span>
+                                  )}
+                                </button>
+                              );
+                            })}
+                          </div>
+                        </div>
+                        {/* Glove Size Selection */}
+                        <div>
+                          <div className="flex justify-between items-center mb-3">
+                            <span className="text-xs font-bold uppercase tracking-widest text-muted-foreground block">
+                              Glove Size: <span className="text-foreground">{selectedSize || "Select Size"}</span>
+                            </span>
+                            <SizeGuide />
+                          </div>
+                          <div className="flex gap-2">
+                            {['S', 'M', 'L', 'XL'].map((size) => (
+                              <button
+                                key={size}
+                                onClick={() => {
+                                  handleSizeChange(product.id, size);
+                                  // Update variant to match size
+                                  const newVariant = product.variants.find(v => v.name.includes(size)) || selectedVariant;
+                                  handleVariantChange(product.id, newVariant);
+                                }}
+                                className={cn(
+                                  "w-10 h-10 border flex items-center justify-center text-sm font-bold transition-colors",
+                                  selectedSize === size 
+                                    ? "bg-primary text-primary-foreground border-primary" 
+                                    : "bg-transparent border-border hover:border-primary/50 text-muted-foreground hover:text-foreground"
+                                )}
+                              >
+                                {size}
+                              </button>
+                            ))}
+                          </div>
+                        </div>
+                      </div>
+                    )}
+
+                    {/* Complete Body Transformation Bundle - No variants needed */}
+                    {bundle && product.name.toLowerCase().includes('complete body transformation') && (
+                      <div className="mb-6 p-4 bg-primary/10 border border-primary/20 rounded-sm">
+                        <p className="text-xs text-muted-foreground">
+                          This bundle includes digital products only. No physical product options needed.
+                        </p>
+                      </div>
+                    )}
+
                     {/* Color Selection - HIDE for bundles and digital products */}
                     {!bundle && product.type !== 'digital' && (
                       <div className="mb-4">
