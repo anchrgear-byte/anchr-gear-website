@@ -282,8 +282,8 @@ export default function Shop() {
                           <div className="flex gap-2">
                             {['Electric Pink', 'Concrete Grey', 'Stealth Black'].map((color) => {
                               const colorMap: Record<string, string> = {
-                                'Electric Pink': '#FF1493',
-                                'Concrete Grey': '#808080',
+                                'Electric Pink': 'rgb(236, 72, 153)',
+                                'Concrete Grey': 'rgb(107, 114, 128)',
                                 'Stealth Black': '#000000'
                               };
                               const isSelected = selectedVariant.name.includes(color);
@@ -320,10 +320,10 @@ export default function Shop() {
                           <div className="flex gap-2">
                             {['Electric Pink', 'Concrete Grey', 'Stealth Black', 'Cyan Blue'].map((color) => {
                               const colorMap: Record<string, string> = {
-                                'Electric Pink': '#FF1493',
-                                'Concrete Grey': '#808080',
+                                'Electric Pink': 'rgb(236, 72, 153)',
+                                'Concrete Grey': 'rgb(107, 114, 128)',
                                 'Stealth Black': '#000000',
-                                'Cyan Blue': '#00CED1'
+                                'Cyan Blue': 'rgb(6, 182, 212)'
                               };
                               const isSelected = selectedVariant.name.includes(color);
                               return (
