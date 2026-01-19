@@ -325,7 +325,7 @@ const BLOG_POSTS = {
     date: "Jan 16, 2026",
     author: "Regina",
     category: "Training Tips",
-    image: "/images/m95tdy0bqUz4.jpg",
+    image: "/images/TiZNVjdIakX6.jpg",
     content: `
       <p>Working out in your 40s and beyond is different. Your body doesn't recover as quickly. Your metabolism is slower. The things that worked for you in your 20s might actually be doing more harm than good now.</p>
 

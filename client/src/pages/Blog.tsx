@@ -39,7 +39,7 @@ const BLOG_POSTS = [
     date: "Jan 16, 2026",
     author: "Regina",
     category: "Training Tips",
-    image: "/images/m95tdy0bqUz4.jpg"
+    image: "/images/TiZNVjdIakX6.jpg"
   },
   {
     id: "hidden-sugars",
