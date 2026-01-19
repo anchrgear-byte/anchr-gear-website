@@ -31,14 +31,6 @@ export default function Home() {
 
         <div className="container relative z-10 px-4 text-center md:text-left">
           <div className="max-w-4xl">
-            {/* ANCHR Gear Logo */}
-            <div className="mb-8 md:mb-12">
-              <img 
-                src="/images/anchr_gear_logo_branded.png" 
-                alt="ANCHR GEAR Logo" 
-                className="w-64 md:w-96 lg:w-[500px] drop-shadow-2xl"
-              />
-            </div>
             <h1 className="text-6xl md:text-8xl lg:text-9xl font-heading font-bold tracking-tighter uppercase leading-[0.9] mb-6 text-white drop-shadow-lg">
               STRENGTH <br />
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-primary to-secondary">WITHOUT</span> <br />

@@ -29,8 +29,12 @@ export default function Layout({ children }: { children: React.ReactNode }) {
       <header className="border-b border-border sticky top-0 z-50 bg-background/95 backdrop-blur supports-[backdrop-filter]:bg-background/60">
         <div className="container mx-auto px-4 h-20 flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="text-3xl font-heading font-bold tracking-tighter uppercase hover:text-primary transition-colors">
-            ANCHR<span className="text-primary">.</span>GEAR
+          <Link href="/" className="hover:opacity-80 transition-opacity">
+            <img 
+              src="/images/anchr_gear_logo_branded.png" 
+              alt="ANCHR GEAR" 
+              className="h-12 w-auto"
+            />
           </Link>
 
           {/* Desktop Nav */}
