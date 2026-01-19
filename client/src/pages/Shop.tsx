@@ -282,7 +282,7 @@ export default function Shop() {
                           <div className="flex gap-2">
                             {['Electric Pink', 'Concrete Grey', 'Stealth Black'].map((color) => {
                               const colorMap: Record<string, string> = {
-                                'Electric Pink': 'rgb(236, 72, 153)',
+                                'Electric Pink': 'rgb(239, 161, 147)',
                                 'Concrete Grey': 'rgb(107, 114, 128)',
                                 'Stealth Black': '#000000'
                               };
@@ -320,7 +320,7 @@ export default function Shop() {
                           <div className="flex gap-2">
                             {['Electric Pink', 'Concrete Grey', 'Stealth Black', 'Cyan Blue'].map((color) => {
                               const colorMap: Record<string, string> = {
-                                'Electric Pink': 'rgb(236, 72, 153)',
+                                'Electric Pink': 'rgb(239, 161, 147)',
                                 'Concrete Grey': 'rgb(107, 114, 128)',
                                 'Stealth Black': '#000000',
                                 'Cyan Blue': 'rgb(6, 182, 212)'
@@ -423,7 +423,7 @@ export default function Shop() {
                                   "w-8 h-8 rounded-full border-2 transition-all relative",
                                   isSelected ? "border-primary scale-110" : "border-transparent hover:scale-105"
                                 )}
-                                style={{ backgroundColor: variant.color.replace('bg-', '').replace('-500', '') }}
+                                style={{ backgroundColor: variant.color === 'bg-pink-500' ? 'rgb(239, 161, 147)' : variant.color.replace('bg-', '').replace('-500', '') }}
                                 title={colorName}
                               >
                                 {isSelected && (
