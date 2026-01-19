@@ -49,6 +49,177 @@ const BLOG_POSTS = [
     author: "Reggie",
     category: "Nutrition",
     image: "/images/hero-bg-final-user.png"
+  },
+  {
+    id: "loose-skin-truth",
+    title: "The Dirty Secret Nobody Tells You About Losing 160 Pounds",
+    excerpt: "Loose skin. It's the elephant in the room that nobody wants to talk about. Here's my truth about what happens after massive weight loss.",
+    date: "Jan 14, 2026",
+    author: "Reggie",
+    category: "Transformation",
+    image: "/images/hero-bg-1.jpg"
+  },
+  {
+    id: "911-dispatcher-burnout",
+    title: "How 20 Years as a 911 Dispatcher Nearly Killed Me",
+    excerpt: "The job that was supposed to save lives almost cost me mine. Here's how I escaped the burnout and found myself again.",
+    date: "Jan 13, 2026",
+    author: "Reggie",
+    category: "Transformation",
+    image: "/images/hero-bg-2.jpg"
+  },
+  {
+    id: "mental-weight-loss",
+    title: "The Head Game: Why Losing Weight is More Mental Than Physical",
+    excerpt: "Losing 160 pounds wasn't a physical challenge. It was a war fought in my mind, every single day.",
+    date: "Jan 12, 2026",
+    author: "Reggie",
+    category: "Transformation",
+    image: "/images/hero-bg-3.jpg"
+  },
+  {
+    id: "rock-bottom-redemption",
+    title: "From Rock Bottom to Redemption: My Plan to Build a New Life",
+    excerpt: "At 48, I'm starting over from scratch. Here's my plan to build a laptop lifestyle and take control of my destiny.",
+    date: "Jan 11, 2026",
+    author: "Reggie",
+    category: "Transformation",
+    image: "/images/complete-transformation-bundle.png"
+  },
+  {
+    id: "fashion-after-weight-loss",
+    title: "From Hiding to High Fashion: Finding My Style After 160 Pounds",
+    excerpt: "For most of my life, fashion was a four-letter word. Losing 160 pounds changed everything about how I dress and see myself.",
+    date: "Jan 10, 2026",
+    author: "Reggie",
+    category: "Transformation",
+    image: "/images/pink-gloves-new.jpg"
+  },
+  {
+    id: "no-equipment-workout",
+    title: "No Gym, No Problem: The Ultimate At-Home Bodyweight Workout",
+    excerpt: "You don't need a gym membership or fancy equipment. All you need is your own body and the will to work.",
+    date: "Jan 9, 2026",
+    author: "Reggie",
+    category: "Workouts",
+    image: "/images/black-ropes.jpeg"
+  },
+  {
+    id: "resistance-band-workout",
+    title: "The $10 Gym That Fits in Your Pocket: A Full-Body Resistance Band Workout",
+    excerpt: "Resistance bands are the most underrated tool in fitness. Here's how to get a killer full-body workout for less than a pizza.",
+    date: "Jan 8, 2026",
+    author: "Reggie",
+    category: "Workouts",
+    image: "/images/grey-ropes.jpeg"
+  },
+  {
+    id: "outdoor-workouts",
+    title: "Ditch the Gym, Find Your Playground: The Power of Outdoor Workouts",
+    excerpt: "There's something about being outside that changes the game. The world is your gym - here's how to use it.",
+    date: "Jan 7, 2026",
+    author: "Reggie",
+    category: "Workouts",
+    image: "/images/hero-bg-cordless-final.png"
+  },
+  {
+    id: "hiit-workout",
+    title: "20 Minutes to a New You: The Power of HIIT",
+    excerpt: "You have 20 minutes. Everyone has 20 minutes. Here's how to use those 20 minutes to get a workout that's more effective than an hour on the treadmill.",
+    date: "Jan 6, 2026",
+    author: "Reggie",
+    category: "Workouts",
+    image: "/images/blue-gloves-new.jpg"
+  },
+  {
+    id: "recovery-workout",
+    title: "The Most Important Workout You're Not Doing: The Art of Recovery",
+    excerpt: "The magic doesn't happen in the gym. It happens when you're resting. Here's why recovery is the most important part of your training.",
+    date: "Jan 5, 2026",
+    author: "Reggie",
+    category: "Workouts",
+    image: "/images/grey-gloves-new.jpg"
+  },
+  {
+    id: "emotional-eating",
+    title: "Are You Eating Your Feelings? How to Break Up with Emotional Eating",
+    excerpt: "Sometimes that pint of ice cream isn't just ice cream. It's a therapist, a friend, a warm hug. Here's how to break the cycle.",
+    date: "Jan 4, 2026",
+    author: "Reggie",
+    category: "Nutrition",
+    image: "/images/meal_plan_cover_2.jpg"
+  },
+  {
+    id: "protein-power",
+    title: "The Unsung Hero of Weight Loss: Why Protein is Your Secret Weapon",
+    excerpt: "If you want to lose weight, you need to make protein the star of your plate. Here's why it's the most powerful tool in your arsenal.",
+    date: "Jan 3, 2026",
+    author: "Reggie",
+    category: "Nutrition",
+    image: "/images/strength_program_cover_1.jpg"
+  },
+  {
+    id: "healthy-fats",
+    title: "The Fat Fallacy: Why You Need to Eat Fat to Lose Fat",
+    excerpt: "For decades we were told fat was the enemy. It was all a lie. Here's why you need to eat fat to lose fat.",
+    date: "Jan 2, 2026",
+    author: "Reggie",
+    category: "Nutrition",
+    image: "/images/strength_program_cover_2.jpg"
+  },
+  {
+    id: "hydration-hack",
+    title: "The Easiest Weight Loss Hack You're Not Using",
+    excerpt: "It's free, it's easy, and it's available to you right now. Water is one of the most effective and overlooked tools in your weight loss arsenal.",
+    date: "Jan 1, 2026",
+    author: "Reggie",
+    category: "Nutrition",
+    image: "/images/strength_program_cover_v2_1.jpg"
+  },
+  {
+    id: "mind-muscle-connection",
+    title: "Stop Wasting Your Time in the Gym: The Mind-Muscle Connection",
+    excerpt: "Are you actually training, or just going through the motions? The mind-muscle connection is the secret that separates amateurs from pros.",
+    date: "Dec 31, 2025",
+    author: "Reggie",
+    category: "Training Tips",
+    image: "/images/strength_program_cover_v2_2.jpg"
+  },
+  {
+    id: "progressive-overload",
+    title: "The Secret to Getting Stronger (It's Not What You Think)",
+    excerpt: "The secret to building muscle and breaking through plateaus is simple: progressive overload. Here's how to apply it to your training.",
+    date: "Dec 30, 2025",
+    author: "Reggie",
+    category: "Training Tips",
+    image: "/images/strength_program_cover_v2_3.jpg"
+  },
+  {
+    id: "consistency-over-intensity",
+    title: "The Unsexy Secret to Jaw-Dropping Results",
+    excerpt: "Everyone wants the magic bullet, the quick fix. But the real secret to success is boring, unsexy, and often overlooked: consistency.",
+    date: "Dec 29, 2025",
+    author: "Reggie",
+    category: "Training Tips",
+    image: "/images/Black Gloves.jpg"
+  },
+  {
+    id: "warmup-cooldown",
+    title: "The Most Neglected Parts of Your Workout (That Are Also the Most Important)",
+    excerpt: "You're probably skipping the two most important parts of your workout: the warm-up and the cool-down. Here's why they matter.",
+    date: "Dec 28, 2025",
+    author: "Reggie",
+    category: "Training Tips",
+    image: "/images/Blue Gloves.jpg"
+  },
+  {
+    id: "motivation-myth",
+    title: "Motivation is a Myth: How to Show Up When You Don't Want To",
+    excerpt: "Motivation is fleeting and unreliable. If you're waiting for it to strike, you'll be waiting forever. Here's what actually works.",
+    date: "Dec 27, 2025",
+    author: "Reggie",
+    category: "Training Tips",
+    image: "/images/Grey Gloves.jpg"
   }
 ];
 
