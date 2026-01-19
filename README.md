@@ -1,1 +1,1 @@
-# ANCHR Gear Website - Fixed QuickView
+# ANCHR Gear Website
