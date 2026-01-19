@@ -48,7 +48,7 @@ const BLOG_POSTS = [
     date: "Jan 15, 2026",
     author: "Regina",
     category: "Nutrition",
-    image: "/images/regina_transformation.jpg"
+    image: "/images/hidden_sugars.jpg"
   },
   {
     id: "loose-skin-truth",
