@@ -481,7 +481,6 @@ const BLOG_POSTS = {
       <p><strong><a href="/shop">Learn to eat clean with our Fuel The Grind Meal Plan.</a></strong></p>
     `
   },
-};
   "loose-skin-truth": {
     title: "The Dirty Secret Nobody Tells You About Losing 160 Pounds",
     date: "Jan 14, 2026",
@@ -1199,7 +1198,10 @@ const BLOG_POSTS = {
 
 <p>Stop waiting for motivation. It's not coming. Start building discipline. It's the only thing that will get you to where you want to go.</p>
     `
-  },export default function BlogPost() {
+  }
+};
+
+export default function BlogPost() {
   const [, params] = useRoute("/blog/:id");
   const postId = params?.id;
   const post = postId ? BLOG_POSTS[postId as keyof typeof BLOG_POSTS] : null;
