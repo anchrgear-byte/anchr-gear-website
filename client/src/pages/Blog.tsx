@@ -1,46 +1,73 @@
 import { Link } from "wouter";
 import { ArrowRight, Calendar, User } from "lucide-react";
 import { Button } from "@/components/ui/button";
+import { useState } from "react";
 
 // Mock blog data - in a real app this would come from a CMS or API
 const BLOG_POSTS = [
   {
-    id: "rebuilding-strength-after-weight-loss",
-    title: "Rebuilding Strength After Losing 160lbs",
-    excerpt: "The journey doesn't end when the weight is gone. In fact, that's when the real work begins. Here's how to build muscle and confidence with loose skin.",
-    date: "Jan 10, 2026",
-    author: "Regina",
+    id: "how-i-lost-160-pounds",
+    title: "How I Lost 160 Pounds: The Truth About Weight Loss Surgery",
+    excerpt: "The raw, honest truth about my weight loss journey - including the surgery, the blood clot, and the daily struggle to keep the weight off.",
+    date: "Jan 19, 2026",
+    author: "Reggie",
     category: "Transformation",
     image: "/images/hero-bg-final-user.png"
   },
   {
-    id: "why-cordless-ropes",
-    title: "Why Cordless Ropes Are a Game Changer",
-    excerpt: "No space? No problem. Discover why wireless battle ropes are the ultimate tool for high-intensity interval training at home.",
-    date: "Jan 05, 2026",
-    author: "Team ANCHR",
-    category: "Gear Guide",
+    id: "battle-rope-workouts",
+    title: "5 At-Home Workouts With Battle Ropes That Actually Work",
+    excerpt: "No gym? No problem. These 5 battle rope workouts will torch calories, build strength, and get you shredded from home.",
+    date: "Jan 18, 2026",
+    author: "Reggie",
+    category: "Workouts",
     image: "/images/pink-ropes.jpeg"
   },
   {
-    id: "5-min-arm-blaster",
-    title: "5-Minute Arm Blaster for Busy Days",
-    excerpt: "You don't need an hour at the gym to get a killer arm workout. Grab your gloves and ropes for this quick, intense circuit.",
-    date: "Dec 28, 2025",
-    author: "Team ANCHR",
-    category: "Workouts",
+    id: "meal-prep-guide",
+    title: "The Ultimate Guide to Meal Prepping for Weight Loss",
+    excerpt: "Meal prep doesn't have to be complicated. This guide will show you how to prep a week's worth of healthy meals in under 2 hours.",
+    date: "Jan 17, 2026",
+    author: "Reggie",
+    category: "Nutrition",
+    image: "/images/bundle-meal-prep.jpg"
+  },
+  {
+    id: "fitness-mistakes-after-40",
+    title: "Are You Making These 5 Common Fitness Mistakes After 40?",
+    excerpt: "Working out in your 40s is different. Avoid these 5 common mistakes and train smarter, not harder.",
+    date: "Jan 16, 2026",
+    author: "Reggie",
+    category: "Training Tips",
     image: "/images/black-gloves-new.jpg"
+  },
+  {
+    id: "hidden-sugars",
+    title: "Why Your 'Healthy' Diet Isn't Working: The Truth About Hidden Sugars",
+    excerpt: "You're eating 'healthy' but not losing weight. Here's why: hidden sugars are sabotaging your progress.",
+    date: "Jan 15, 2026",
+    author: "Reggie",
+    category: "Nutrition",
+    image: "/images/hero-bg-final-user.png"
   }
 ];
 
+const CATEGORIES = ["All", "Transformation", "Workouts", "Nutrition", "Training Tips"];
+
 export default function Blog() {
+  const [selectedCategory, setSelectedCategory] = useState("All");
+
+  const filteredPosts = selectedCategory === "All" 
+    ? BLOG_POSTS 
+    : BLOG_POSTS.filter(post => post.category === selectedCategory);
+
   return (
     <div className="min-h-screen bg-background">
       {/* Header */}
       <div className="bg-card border-b border-border py-16 md:py-24">
         <div className="container mx-auto px-4 text-center">
           <h1 className="text-4xl md:text-6xl font-heading font-bold uppercase mb-6">
-            The <span className="text-primary">Grind</span>
+            The <span className="text-primary">Grind</span> Blog
           </h1>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto font-body">
             Real talk, workout tips, and stories from the trenches. 
@@ -49,10 +76,28 @@ export default function Blog() {
         </div>
       </div>
 
+      {/* Category Filter */}
+      <div className="border-b border-border bg-card py-6">
+        <div className="container mx-auto px-4">
+          <div className="flex flex-wrap justify-center gap-4">
+            {CATEGORIES.map((category) => (
+              <Button
+                key={category}
+                variant={selectedCategory === category ? "default" : "outline"}
+                className="uppercase font-bold tracking-widest"
+                onClick={() => setSelectedCategory(category)}
+              >
+                {category}
+              </Button>
+            ))}
+          </div>
+        </div>
+      </div>
+
       {/* Blog Grid */}
       <div className="container mx-auto px-4 py-16">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {BLOG_POSTS.map((post) => (
+          {filteredPosts.map((post) => (
             <article key={post.id} className="group flex flex-col h-full border border-border bg-card hover:border-primary transition-colors duration-300">
               {/* Image Container */}
               <div className="aspect-video w-full overflow-hidden bg-muted relative">

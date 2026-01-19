@@ -291,3 +291,95 @@ When you eat at a sit-down restaurant, follow this simple rule: **Double Protein
 *   **Pro Tip:** Ask for sauces and dressings on the side so you can control how much you use.
 
 Staying on track is about making the **best available choice**, not the perfect choice. Don't let one unplanned meal derail your entire week.
+
+
+---
+
+## PART 10: THE SUPPLEMENT STACK STARTER GUIDE
+
+The supplement industry is a confusing and overwhelming place. There are thousands of products, all promising to help you lose weight, build muscle, and feel amazing. But which ones actually work?
+
+The truth is, most of them are garbage. They're overpriced, under-dosed, and full of proprietary blends that hide what's really inside.
+
+But there are a few supplements that are backed by science and have been proven to be safe and effective. This is a no-BS guide to the 3 supplements that are actually worth your money.
+
+| Supplement | What It Does | What to Look For |
+| :--- | :--- | :--- |
+| **1. Protein Powder** | Helps you hit your daily protein goals, which is crucial for building and maintaining muscle. | Look for a whey, casein, or plant-based protein with at least 20-25 grams of protein per serving and minimal added sugar. |
+| **2. Creatine Monohydrate** | The most studied supplement on the market. Helps to increase strength, power, and muscle mass. | Look for a pure creatine monohydrate powder. Don't waste your money on fancy, expensive forms of creatine. |
+| **3. Vitamin D** | Technically a hormone, not a vitamin. Crucial for bone health, immune function, and mood. Most people are deficient, especially in the winter. | Look for a Vitamin D3 supplement. The recommended dose is 1,000-2,000 IU per day, but you should get your levels checked by a doctor to see what's right for you. |
+
+**Disclaimer:** I am not a doctor. Always consult with a healthcare professional before starting any new supplement regimen.
+
+
+---
+
+## PART 11: THE "CURB YOUR CRAVINGS" PLAYBOOK
+
+Let's be real: the hardest part of any diet isn't the workouts, it's the cravings. That late-night urge for something sweet, the mindless snacking in front of the TV, the emotional eating after a stressful day... that's what derails your progress.
+
+This playbook will give you the tools to fight back.
+
+### The 4 Types of Cravings & How to Beat Them
+
+1.  **The "I'm Bored" Craving:**
+    *   **The Feeling:** You're not hungry, you're just looking for something to do.
+    *   **The Fix:** Go for a walk, call a friend, organize your closet, do 10 pushups. Do *anything* other than eat. The craving will pass in 10-15 minutes.
+
+2.  **The "I'm Stressed" Craving:**
+    *   **The Feeling:** You've had a long, hard day and you feel like you "deserve" a treat.
+    *   **The Fix:** Find a non-food way to de-stress. Take a hot bath, listen to music, meditate, or journal. Emotional eating is a temporary fix that only makes you feel worse in the long run.
+
+3.  **The "It's a Habit" Craving:**
+    *   **The Feeling:** You always have a bowl of ice cream while you watch Netflix, so you automatically reach for it.
+    *   **The Fix:** Replace the habit with a healthier one. Instead of ice cream, have a cup of herbal tea or a bowl of berries. It takes time to break a habit, but it's worth it.
+
+4.  **The "I'm Actually Hungry" Craving:**
+    *   **The Feeling:** Your stomach is growling and you feel a real, physical need for food.
+    *   **The Fix:** Eat! But make it a smart choice. Instead of reaching for the chips, have a high-protein snack like Greek yogurt, a handful of nuts, or a protein shake. This will satisfy your hunger and keep you on track.
+
+### Healthy Snack Swaps
+
+| Instead of This... | Try This... |
+| :--- | :--- |
+| Potato Chips | Air-popped popcorn, seaweed snacks, or kale chips |
+| Ice Cream | Greek yogurt with berries, or the Chocolate Peanut Butter "Nice" Cream from our recipe list |
+| Candy | A piece of fruit, or a small square of dark chocolate (>70% cacao) |
+| Soda | Sparkling water with a splash of lemon or lime |
+
+
+---
+
+## PART 12: THE "HYDRATION IS KEY" BLUEPRINT
+
+We already touched on this, but it's so important that it deserves its own section. Proper hydration is a non-negotiable for weight loss, muscle gain, and overall health. [1]
+
+### Why It Matters
+
+*   **Boosts Metabolism:** Even mild dehydration can slow down your metabolism. [2]
+*   **Improves Workout Performance:** Dehydration can lead to a significant decrease in strength, power, and endurance. [3]
+*   **Reduces Hunger:** Sometimes when you think you're hungry, you're actually just thirsty. Drinking a glass of water can often curb those cravings.
+*   **Flushes Out Toxins:** Water helps your kidneys to filter waste from your blood and excrete it in your urine.
+
+### How Much is Enough?
+
+The old "8 glasses a day" rule is a good starting point, but a better goal is to drink **half your body weight in ounces of water per day.**
+
+*   **Example:** If you weigh 200 pounds, you should aim to drink 100 ounces of water per day (about 0.8 gallons).
+
+### How to Make it Happen
+
+*   **Start Your Day with Water:** Drink 16-20 ounces of water right when you wake up. This will rehydrate you after a long night of sleep and kickstart your metabolism.
+*   **Carry a Water Bottle:** Keep a reusable water bottle with you at all times. If it's always within reach, you're more likely to drink it.
+*   **Set a Timer:** If you're forgetful, set a timer on your phone to remind you to drink a glass of water every hour.
+*   **Make it Interesting:** If you don't like the taste of plain water, add some flavor with fruit infusions (lemon, lime, berries), a few slices of cucumber, or a sprig of mint.
+
+---
+
+### References
+
+[1] Popkin, B. M., D'Anci, K. E., & Rosenberg, I. H. (2010). Water, hydration, and health. *Nutrition reviews*, 68(8), 439–458. https://doi.org/10.1111/j.1753-4887.2010.00304.x
+
+[2] Stookey, J. D., Constant, F., Popkin, B. M., & Gardner, C. D. (2008). Drinking water is associated with weight loss in overweight dieting women independent of diet and activity. *Obesity (Silver Spring, Md.)*, 16(11), 2481–2488. https://doi.org/10.1038/oby.2008.409
+
+[3] Judelson, D. A., Maresh, C. M., Anderson, J. M., Armstrong, L. E., Casa, D. J., Kraemer, W. J., & Volek, J. S. (2007). Hydration and muscular performance: does fluid balance affect strength, power and high-intensity endurance?. *Sports medicine (Auckland, N.Z.)*, 37(10), 907–921. https://doi.org/10.2165/00007256-200737100-00006
