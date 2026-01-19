@@ -66,7 +66,7 @@ const BLOG_POSTS = [
     date: "Jan 13, 2026",
     author: "Regina",
     category: "Transformation",
-    image: "/images/mNcguTaVaJtA.jpg"
+    image: "/images/dispatcher_cartoon.jpg"
   },
   {
     id: "mental-weight-loss",
