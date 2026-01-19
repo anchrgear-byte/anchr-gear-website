@@ -12,7 +12,7 @@ const BLOG_POSTS = [
     date: "Jan 19, 2026",
     author: "Regina",
     category: "Transformation",
-    image: "/images/OR1nmesUqL29.jpg"
+    image: "/images/regina_transformation.jpg"
   },
   {
     id: "battle-rope-workouts",
@@ -48,7 +48,7 @@ const BLOG_POSTS = [
     date: "Jan 15, 2026",
     author: "Regina",
     category: "Nutrition",
-    image: "/images/OR1nmesUqL29.jpg"
+    image: "/images/regina_transformation.jpg"
   },
   {
     id: "loose-skin-truth",

@@ -10,7 +10,7 @@ const BLOG_POSTS = {
     date: "Jan 19, 2026",
     author: "Regina",
     category: "Transformation",
-    image: "/images/OR1nmesUqL29.jpg",
+    image: "/images/regina_transformation.jpg",
     content: `
       <p>I'm going to tell you something I've never said publicly before.</p>
 
@@ -387,7 +387,7 @@ const BLOG_POSTS = {
     date: "Jan 15, 2026",
     author: "Regina",
     category: "Nutrition",
-    image: "/images/OR1nmesUqL29.jpg",
+    image: "/images/regina_transformation.jpg",
     content: `
       <p>You're doing everything right. You're eating salads, you're drinking smoothies, you're choosing the "low-fat" and "all-natural" options at the grocery store.</p>
 
