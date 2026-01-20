@@ -287,11 +287,7 @@ export default function Shop() {
 
                   {/* Details Area */}
                   <div className="p-6 flex flex-col flex-grow">
-                    <Link href={`/shop/${product.id}`}>
-                      <a>
-                        <h3 className="text-2xl font-heading font-bold uppercase mb-2 hover:text-primary transition-colors">{product.name}</h3>
-                      </a>
-                    </Link>
+                    <h3 className="text-2xl font-heading font-bold uppercase mb-2">{product.name}</h3>
                     
                     <div className="flex items-baseline gap-3 mb-4">
                       <span className="text-2xl font-bold text-primary">${selectedVariant.price.toFixed(2)}</span>
