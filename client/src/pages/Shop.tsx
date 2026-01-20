@@ -225,8 +225,7 @@ export default function Shop() {
               return (
                 <div key={product.id} className="group flex flex-col bg-card border border-border hover:border-primary/50 transition-colors overflow-hidden">
                   {/* Image Area */}
-                  <Link href={`/shop/${product.id}`}>
-                    <a className="block relative aspect-square bg-white overflow-hidden">
+                  <div className="block relative aspect-square bg-white overflow-hidden">
                       {bundle && product.name.toLowerCase().includes('complete body transformation') ? (
                         // Complete Transformation Bundle: Use custom collage image
                         <img 
@@ -282,8 +281,7 @@ export default function Shop() {
                           Bundle
                         </div>
                       )}
-                    </a>
-                  </Link>
+                  </div>
 
                   {/* Details Area */}
                   <div className="p-6 flex flex-col flex-grow">
