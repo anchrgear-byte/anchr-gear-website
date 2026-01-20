@@ -76,14 +76,14 @@ export function DigitalTransformationBundle() {
               <div className="flex justify-center gap-4 mb-8 -mt-4">
                 <div className="relative w-32 aspect-[2/3] shadow-lg transform -rotate-6 hover:rotate-0 transition-transform duration-300">
                   <img 
-                    src="/images/strength_program_cover_v2_2.jpg" 
+                    src="/images/strength_program_cover_v2_2.webp" 
                     alt="Strength Program Cover" 
                     className="w-full h-full object-cover rounded-sm border border-white/10"
                   />
                 </div>
                 <div className="relative w-32 aspect-[2/3] shadow-lg transform rotate-6 hover:rotate-0 transition-transform duration-300 z-10">
                   <img 
-                    src="/images/meal_plan_cover_1.jpg" 
+                    src="/images/meal_plan_cover_1.webp" 
                     alt="Meal Plan Cover" 
                     className="w-full h-full object-cover rounded-sm border border-white/10"
                   />

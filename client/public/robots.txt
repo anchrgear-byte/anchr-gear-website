@@ -1,0 +1,12 @@
+# robots.txt for ANCHR Gear
+User-agent: *
+Allow: /
+
+# Sitemap location
+Sitemap: https://anchrgear.com/sitemap.xml
+
+# Disallow admin and internal paths
+Disallow: /api/
+Disallow: /admin/
+Disallow: /_next/
+Disallow: /checkout/

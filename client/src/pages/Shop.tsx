@@ -229,7 +229,7 @@ export default function Shop() {
                       {bundle && product.name.toLowerCase().includes('complete body transformation') ? (
                         // Complete Transformation Bundle: Use custom collage image
                         <img 
-                          src="/images/complete-transformation-bundle.png" 
+                          src="/images/complete-transformation-bundle.webp" 
                           alt={`${product.name}`}
                           className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
                         />

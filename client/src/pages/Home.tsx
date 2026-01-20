@@ -21,7 +21,7 @@ export default function Home() {
         {/* Background Image with Overlay */}
         <div className="absolute inset-0 z-0">
           <img 
-            src="/images/hero-bg-final-user.png" 
+            src="/images/hero-bg-final-user.webp" 
             alt="Black Woman Cordless Battle Ropes Workout" 
             className="w-full h-full object-cover opacity-60"
           />

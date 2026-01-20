@@ -10,7 +10,7 @@ export default function StrengthProgram() {
         <div className="absolute inset-0 z-0">
           <div className="absolute inset-0 bg-black/80 z-10" />
           <img 
-            src="/images/hero-bg-final-user.png" 
+            src="/images/hero-bg-final-user.webp" 
             alt="Strength Training Background" 
             className="w-full h-full object-cover grayscale opacity-40"
           />

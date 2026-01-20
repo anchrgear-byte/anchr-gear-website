@@ -31,7 +31,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
           {/* Logo */}
           <Link href="/" className="hover:opacity-80 transition-opacity">
             <img 
-              src="/images/anchr_gear_logo_branded.png" 
+              src="/images/anchr_gear_logo_branded.webp" 
               alt="ANCHR GEAR" 
               className="h-12 w-auto"
             />
@@ -60,6 +60,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               size="icon" 
               className="relative hover:text-primary hover:bg-transparent"
               onClick={() => setIsCartOpen(true)}
+              aria-label="Open shopping cart"
             >
               <ShoppingCart className="h-6 w-6" />
               {cartCount > 0 && (
@@ -75,6 +76,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               size="icon"
               className="md:hidden hover:text-primary hover:bg-transparent"
               onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
+              aria-label={isMobileMenuOpen ? "Close menu" : "Open menu"}
             >
               {isMobileMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </Button>
@@ -111,7 +113,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
         <div className="container mx-auto px-4 grid grid-cols-1 md:grid-cols-5 gap-8">
           <div className="col-span-1 md:col-span-2">
             <img 
-              src="/images/anchr_gear_logo_branded.png" 
+              src="/images/anchr_gear_logo_branded.webp" 
               alt="ANCHR GEAR" 
               className="h-16 w-auto mb-4"
             />
