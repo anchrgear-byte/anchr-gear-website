@@ -34,7 +34,7 @@ export default function StrengthProgram() {
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 font-body max-w-3xl mx-auto mb-10 leading-relaxed">
-            The definitive 12-week home transformation program designed to build real muscle, burn fat, and forge mental toughness without a gym membership.
+            The definitive 12-week home transformation program designed to build real muscle, burn fat, and forge mental toughness using your ANCHR battle ropes.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -57,7 +57,7 @@ export default function StrengthProgram() {
                 You don't need fancy machines or a $100/month membership to change your body. You need gravity, intensity, and a plan.
               </p>
               <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-                This program is built on the principles of progressive overload using minimal equipment—dumbbells, battle ropes, and your own bodyweight. It's designed for those who are ready to grind in silence and let their results make the noise.
+                This program is built on the principles of progressive overload using your ANCHR battle ropes, dumbbells, and your own bodyweight. It's designed for those who are ready to grind in silence and let their results make the noise. Each phase is specifically designed to leverage the unique resistance of your cordless battle ropes to build explosive power and cardiovascular endurance simultaneously.
               </p>
               <div className="grid grid-cols-2 gap-4 mt-8">
                 <div className="flex items-center gap-3">

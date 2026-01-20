@@ -34,7 +34,7 @@ export default function MealPlan() {
           </h1>
           
           <p className="text-xl md:text-2xl text-gray-300 font-body max-w-3xl mx-auto mb-10 leading-relaxed">
-            High-protein, macro-optimized meal plans designed to fuel your workouts and rebuild your body. No bland diets. Just real food for real results.
+            High-protein, macro-optimized meal plans designed to fuel your ANCHR battle rope workouts and rebuild your body. No bland diets. Just real food for real results.
           </p>
 
           <div className="flex flex-col sm:flex-row justify-center gap-4">
@@ -57,7 +57,7 @@ export default function MealPlan() {
                 Most diets fail because they focus on deprivation. We focus on fueling. Your body is a machine, and it needs the right fuel to perform.
               </p>
               <p className="text-muted-foreground text-lg mb-6 leading-relaxed">
-                This isn't about counting every calorie until you go crazy. It's about understanding macros, prioritizing protein, and prepping meals that actually taste good so you can stick to the plan long enough to see the change.
+                This isn't about counting every calorie until you go crazy. It's about understanding macros, prioritizing protein to rebuild muscle broken down during your workouts, and prepping meals that actually taste good so you can stick to the plan long enough to see the change. This meal plan is specifically designed to provide the energy you need to crush your battle rope workouts and the nutrients you need to recover and build a stronger, leaner physique.
               </p>
               <div className="grid grid-cols-2 gap-4 mt-8">
                 <div className="flex items-center gap-3">
