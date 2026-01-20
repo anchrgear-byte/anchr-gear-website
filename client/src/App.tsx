@@ -13,8 +13,7 @@ import Shop from "./pages/Shop";
 import ProductDetail from "./pages/ProductDetail";
 import FAQ from "./pages/FAQ";
 import Contact from "./pages/Contact";
-import Blog from "./pages/Blog";
-import BlogPost from "./pages/BlogPost";
+
 import Showcase from "./pages/Showcase";
 import Terms from "./pages/Terms";
 import Privacy from "./pages/Privacy";
@@ -34,8 +33,7 @@ function Router() {
         <Route path={"/shop/:id"} component={ProductDetail} />
         <Route path={"/faq"} component={FAQ} />
         <Route path={"/contact"} component={Contact} />
-        <Route path={"/blog"} component={Blog} />
-        <Route path={"/blog/:id"} component={BlogPost} />
+
         <Route path={"/showcase"} component={Showcase} />
         <Route path={"/terms"} component={Terms} />
         <Route path={"/privacy"} component={Privacy} />

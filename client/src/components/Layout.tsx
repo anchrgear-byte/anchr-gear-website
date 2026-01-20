@@ -14,7 +14,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
     { href: "/", label: "HOME" },
     { href: "/shop", label: "SHOP" },
     { href: "/about", label: "ABOUT" },
-    { href: "/blog", label: "THE GRIND BLOG" },
+
     { href: "/contact", label: "CONTACT" },
   ];
 
@@ -144,7 +144,7 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               <li><a href="/faq#shipping" className="hover:text-primary transition-colors">Shipping Policy</a></li>
               <li><a href="/faq#returns" className="hover:text-primary transition-colors">Returns</a></li>
               <li><Link href="/faq" className="hover:text-primary transition-colors">FAQ</Link></li>
-              <li><Link href="/blog" className="hover:text-primary transition-colors">The Grind (Blog)</Link></li>
+
             </ul>
           </div>
 
